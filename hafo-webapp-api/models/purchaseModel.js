@@ -1,0 +1,140 @@
+module.exports={
+    getpurchaseInfoById(){
+        let mypurchaseProject={
+            texts:{
+                "textpurchase":"http://47.94.149.181/dc0517/purchaseimg/18.jpg",
+                "textname":"请输入品牌、车型车系、VIN码"
+            },
+            buylists:[
+                {
+                    "buylistspurchase":"http://47.94.149.181/dc0517/purchaseimg/19.jpg",
+                    "buylistname":"买车"
+                },
+                {
+                    "buylistspurchase":"http://47.94.149.181/dc0517/purchaseimg/20.jpg",
+                    "buylistname":"卖车"
+                },
+                {
+                    "buylistspurchase":"http://47.94.149.181/dc0517/purchaseimg/21.jpg",
+                    "buylistname":"置换"
+                },
+                {
+                    "buylistspurchase":"http://47.94.149.181/dc0517/purchaseimg/22.jpg",
+                    "buylistname":"评估"
+                }
+            ],
+            brands:[
+                {
+                    "brandpurchase":"http://47.94.149.181/dc0517/purchaseimg/23.jpg",
+                    "brandname":"哈弗"
+                },
+                {
+                    "brandpurchase":"http://47.94.149.181/dc0517/purchaseimg/2.jpg",
+                    "brandname":"欧拉"
+                },
+                {
+                    "brandpurchase":"http://47.94.149.181/dc0517/purchaseimg/24.jpg",
+                    "brandname":"长城"
+                },
+                {
+                    "brandpurchase":"http://47.94.149.181/dc0517/purchaseimg/25.jpg",
+                    "brandname":"WEY"
+                }
+            ],
+            buycarlists:[
+                {
+                    "buycarlistpurchase":"http://47.94.149.181/dc0517/purchaseimg/3.jpg"
+                },
+                {
+                    "buycarlistpurchase":"http://47.94.149.181/dc0517/purchaseimg/4.jpg"
+                },
+                {
+                    "buycarlistpurchase":"http://47.94.149.181/dc0517/purchaseimg/5.jpg"
+                },
+                {
+                    "buycarlistpurchase":"http://47.94.149.181/dc0517/purchaseimg/6.jpg"
+                }
+            ],
+            carlists:[
+                {
+                    "carlistpurchase":"http://47.94.149.181/dc0517/purchaseimg/8.jpg",
+                    "carlistname":"哈弗 H6 1.5T 手动 升级版 两驱都市型(2013款)",
+                    "condition":"2014| 2.5万公里| 济南",
+                    "carlistprice":"¥4.10万"
+                },
+                {
+                    "carlistpurchase":"http://47.94.149.181/dc0517/purchaseimg/9.jpg",
+                    "carlistname":"哈弗 H6 1.5T 双离合 红标 豪华智联版(2019款)",
+                    "condition":"2013| 10.1万公里| 广州",
+                    "carlistprice":"¥10.00万"
+                },
+                {
+                    "carlistpurchase":"http://47.94.149.181/dc0517/purchaseimg/10.jpg",
+                    "carlistname":"哈弗 H5 2.4L 手动 智尊版 四驱超豪华差速版(2011款)",
+                    "condition":"2016| 7.0万公里| 临沂",
+                    "carlistprice":"¥5.28万"
+                },
+                {
+                    "carlistpurchase":"http://47.94.149.181/dc0517/purchaseimg/11.jpg",
+                    "carlistname":"哈弗 H6 1.5T 手动 两驱升级版 精英型(2016款)",
+                    "condition":"2016| 6.2万公里| 潍坊",
+                    "carlistprice":"¥5.50万"
+                },
+                {
+                    "carlistpurchase":"http://47.94.149.181/dc0517/purchaseimg/7.jpg",
+                    "carlistname":"哈弗 H6 1.5T 手动 升级版 两驱都市型(2013款)",
+                    "condition":"2014| 12.5万公里| 石家庄",
+                    "carlistprice":"¥4.10万"
+                }
+            ],
+            extends:[
+                {
+                    "extendtitle":"二手车过户的过户流程是什么？",
+                    "extendpurchase":"http://47.94.149.181/dc0517/purchaseimg/12.jpg"
+                },
+                {
+                    "extendtitle":"买二手车时怎样辨别发动机是否泡过水？",
+                    "extendpurchase":"http://47.94.149.181/dc0517/purchaseimg/13.jpg"
+                },
+                {
+                    "extendtitle":"二手车省油小窍门 良好的驾驶习惯不可忽视",
+                    "extendpurchase":"http://47.94.149.181/dc0517/purchaseimg/14.jpg"
+                }
+            ],
+            users:[
+                {
+                    "userpurchase":"http://47.94.149.181/dc0517/purchaseimg/15.jpg"
+                },
+                {
+                    "userpurchase":"http://47.94.149.181/dc0517/purchaseimg/16.jpg"
+                },
+                {
+                    "userpurchase":"http://47.94.149.181/dc0517/purchaseimg/17.jpg"
+                }
+            ],
+            footers:[
+                {
+                   "footerpurchase":"http://47.94.149.181/dc0517/purchaseimg/26.jpg",
+                   "footername":"首页"
+                },
+                {
+                    "footerpurchase":"http://47.94.149.181/dc0517/purchaseimg/29.jpg",
+                    "footername":"买车"
+                 },
+                 {
+                    "footerpurchase":"http://47.94.149.181/dc0517/purchaseimg/29.jpg",
+                    "footername":"卖车"
+                 },
+                 {
+                    "footerpurchase":"http://47.94.149.181/dc0517/purchaseimg/27.jpg",
+                    "footername":"评估"
+                 },
+                 {
+                    "footerpurchase":"http://47.94.149.181/dc0517/purchaseimg/28.jpg",
+                    "footername":"我的"
+                 }
+            ]
+        }
+        return mypurchaseProject
+    }
+}

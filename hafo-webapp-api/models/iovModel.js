@@ -1,0 +1,38 @@
+module.exports={
+    getiovInfoById(){
+        let myiovProject={
+            myheaders:{
+                "myheaderpic1":"http://47.94.149.181/dc0517/iovimg/17.jpg",
+                "myheaderpic2":"http://47.94.149.181/dc0517/iovimg/1.jpg",
+                "myheadername":"车联网"
+            },
+            processlists:[
+                {
+                    "processlistcard":"http://47.94.149.181/dc0517/iovimg/3.jpg",
+                    "processlistname":"1.选择商品"
+                },
+                {
+                    "processlistcard":"http://47.94.149.181/dc0517/iovimg/4.jpg",
+                    "processlistname":"1.提交订单"
+                },
+                {
+                    "processlistcard":"http://47.94.149.181/dc0517/iovimg/5.jpg",
+                    "processlistname":"1.支付完成"
+                },
+                {
+                    "processlistcard":"http://47.94.149.181/dc0517/iovimg/6.jpg",
+                    "processlistname":"1.享受权益"
+                }
+            ],
+            servicecardlists:[
+                {
+                    "servicecardlistcard":"http://47.94.149.181/dc0517/iovimg/7.jpg"
+                },
+                {
+                    "servicecardlistcard":"http://47.94.149.181/dc0517/iovimg/8.jpg"
+                }
+            ]
+        }
+        return myiovProject
+    }
+}

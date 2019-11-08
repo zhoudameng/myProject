@@ -1,76 +1,76 @@
 module.exports={
     gethomeInfoByUserId(){
         let myhomeProject={
-            section:{
                 homeoptions:[
                     {
-                        "picoptions":"/hafo-webapp/public/home/2.jpg",
+                        "picoptions":"http://47.94.149.181/dc0517/img/2.jpg",
                         "nameoptions":"车抢购"
                     },
                     {
-                        "picoptions":"/hafo-webapp/public/home/3.jpg",
+                        "picoptions":"http://47.94.149.181/dc0517/img/3.jpg",
                         "nameoptions":"安心换"
                     },
                     {
-                        "picoptions":"/hafo-webapp/public/home/4.jpg",
+                        "picoptions":"http://47.94.149.181/dc0517/img/4.jpg",
                         "nameoptions":"车享用"
                     },
                     {
-                        "picoptions":"/hafo-webapp/public/home/5.jpg",
+                        "picoptions":"http://47.94.149.181/dc0517/img/5.jpg",
                         "nameoptions":"车联网"
                     },
                     {
-                        "picoptions":"/hafo-webapp/public/home/35.jpg",
+                        "picoptions":"http://47.94.149.181/dc0517/img/35.jpg",
                         "nameoptions":"车延保"
                     },
                     {
-                        "picoptions":"/hafo-webapp/public/home/6.jpg",
+                        "picoptions":"http://47.94.149.181/dc0517/img/6.jpg",
                         "nameoptions":"领券吧"
                     },
                     {
-                        "picoptions":"/hafo-webapp/public/home/36.jpg",
+                        "picoptions":"http://47.94.149.181/dc0517/img/36.jpg",
                         "nameoptions":"车互动"
                     },
                     {
-                        "picoptions":"/hafo-webapp/public/home/7.jpg",
+                        "picoptions":"http://47.94.149.181/dc0517/img/7.jpg",
                         "nameoptions":"找好店"
                     }
                 ],
                 iovs:[
-                    {"piciovs":"/hafo-webapp/public/home/8.jpg"},
-                    {"piciovs":"/hafo-webapp/public/home/37.jpg"},
-                    {"piciovs":"/hafo-webapp/public/home/38.jpg"}
+                    {"piciovs":"http://47.94.149.181/dc0517/img/8.jpg"},
+                    {"piciovs":"http://47.94.149.181/dc0517/img/37.jpg"},
+                    {"piciovs":"http://47.94.149.181/dc0517/img/38.jpg"}
                 ],
-                purchasecards:[
-                    {"picpurchasecard":"/hafo-webapp/public/home/39.jpg"},
-                    {"picpurchasecard":"/hafo-webapp/public/home/9.jpg"},
-                    {"picpurchasecard":"/hafo-webapp/public/home/13.jpg"},
-                    {"picpurchasecard":"/hafo-webapp/public/home/14.jpg"}
+                purchasecards1:[
+                    {"picpurchasecard":"http://47.94.149.181/dc0517/img/39.jpg"},
+                    {"picpurchasecard":"http://47.94.149.181/dc0517/img/9.jpg"}
                 ],
                 purchaselists:[
                     {
-                        "carlist":"/hafo-webapp/public/home/10.jpg",
+                        "carlist":"http://47.94.149.181/dc0517/img/10.jpg",
                         "purchasetitle":"2019款全新哈弗H6",
                         "order":"¥499",
                         "purchaseprice":"官方指导价:109000起"
                     },
                     {
-                        "carlist":"/hafo-webapp/public/home/11.jpg",
+                        "carlist":"/home/11.jpg",
                         "purchasetitle":"新哈弗H6 Coupe智联版",
                         "order":"¥499",
                         "purchaseprice":"官方指导价:103000起"
                     },
                     {
-                        "carlist":"/hafo-webapp/public/home/10.jpg",
+                        "carlist":"/home/10.jpg",
                         "purchasetitle":"哈弗M6",
                         "order":"¥499",
                         "purchaseprice":"官方指导价:66000起"
                     }
                 ],
-                backgrounds:"/hafo-webapp/public/home/15.jpg",
+                purchasecards2:[
+                    {"picpurchasecard":"http://47.94.149.181/dc0517/img/13.jpg"},
+                    {"picpurchasecard":"http://47.94.149.181/dc0517/img/14.jpg"}
+                ],
+                backgrounds:"http://47.94.149.181/dc0517/img/15.jpg",
                 enjoys:[
                     {
-                        "newgoods":"新品",
                         "enjoysname":"轻盈小果冻旅行箱",
                         "enjoyprice":"¥186",
                         "beforprice":"199",
@@ -106,7 +106,6 @@ module.exports={
                         "follownum":"62"
                     }
                 ]
-            }
         }
         return myhomeProject
     }
